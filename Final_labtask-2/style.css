@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+}
+
+.container {
+    width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #243b64;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #243b64;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.checkbox input {
+    width: auto;
+}
+
+button,
+.button {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #243b64;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background: #172945;
+}
+
+.student-info,
+.summary {
+    background: #f7f8fa;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.success {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
